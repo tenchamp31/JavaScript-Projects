@@ -1,4 +1,4 @@
-function my_Dictionary() {
+function my_Dictionary() { //Adding key-value pair
     var Animal = {
         Species: "Snake",
         Color: "Red",
@@ -7,6 +7,6 @@ function my_Dictionary() {
         Type: "Tree",
         Sound:"Hiss!"   
     };
-    delete Animal.Sound;
+    delete Animal.Sound; //Delete operator
 document.getElementById("Dictionary").innerHTML = Animal.Sound;
 }
